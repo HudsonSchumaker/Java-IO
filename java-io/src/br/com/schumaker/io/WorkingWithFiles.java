@@ -121,7 +121,7 @@ public class WorkingWithFiles {
         reader.close();
     }
 
-    public void UsingJava7ToWriteToFile(String fileName) throws IOException {
+    public void usingJava7ToWriteToFile(String fileName) throws IOException {
         String str = "Hello";
 
         Path path = Paths.get(fileName);
