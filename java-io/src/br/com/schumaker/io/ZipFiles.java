@@ -9,7 +9,7 @@ import java.util.zip.ZipInputStream;
 
 /**
  *
- * @author schumaker
+ * @author Hudson Schumaker
  */
 public final class ZipFiles {
     
