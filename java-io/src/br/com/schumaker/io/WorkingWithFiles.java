@@ -165,5 +165,19 @@ public class WorkingWithFiles {
         stream.close();
         channel.close();
     }
+    
+    public List<String> read(String filePath) {
+     
+        List<String> lines = new ArrayList<>();
+        
+        try (BufferedReader br = Files.newBufferedReader(Paths.get(filePath))) {
+            lines = br.lines().collect(Collectors.toList());
+
+        } catch (IOException e) {
+            System.err.println(e);
+        }
+        
+        return lines;
+    }
 
 }
