@@ -101,7 +101,7 @@ public class WorkingWithFiles {
         return result;
     }
 
-    public void eritingToFileUsingFileChannel(String fileName) throws IOException {
+    public void ReadingFileUsingFileChannel(String fileName) throws IOException {
         RandomAccessFile stream = new RandomAccessFile(fileName, "rw");
         FileChannel channel = stream.getChannel();
         String value = "Hello";
