@@ -14,8 +14,8 @@ public class TesteCopiarArquivo {
 
 	public static void main(String[] args) throws IOException {
 		
-//		Socket s = new Socket();		
-		InputStream fis = System.in; //new FileInputStream("lorem.txt");
+		// Socket s = new Socket();		
+		InputStream fis = System.in; // new FileInputStream("lorem.txt");
 		Reader isr = new InputStreamReader(fis);
 		BufferedReader br = new BufferedReader(isr);
 		
