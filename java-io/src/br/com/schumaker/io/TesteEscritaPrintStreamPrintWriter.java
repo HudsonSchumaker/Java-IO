@@ -10,7 +10,7 @@ public class TesteEscritaPrintStreamPrintWriter {
 		// Fluxo de Entrada com Arquivo
 		// OutputStream fos = new FileOutputStream("lorem2.txt");
 		// Writer osw = new OutputStreamWriter(fos);
-//		BufferedWriter bw = new BufferedWriter(osw);
+		// BufferedWriter bw = new BufferedWriter(osw);
 		
 //		BufferedWriter bw = new BufferedWriter(new FileWriter("lorem2.txt"));
 //		PrintStream ps = new PrintStream(new File("lorem2.txt"));
