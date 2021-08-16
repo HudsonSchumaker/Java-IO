@@ -8,8 +8,8 @@ public class TesteEscritaPrintStreamPrintWriter {
 	public static void main(String[] args) throws IOException {
 		
 		// Fluxo de Entrada com Arquivo
-// OutputStream fos = new FileOutputStream("lorem2.txt");
-//		Writer osw = new OutputStreamWriter(fos);
+		// OutputStream fos = new FileOutputStream("lorem2.txt");
+// Writer osw = new OutputStreamWriter(fos);
 //		BufferedWriter bw = new BufferedWriter(osw);
 		
 //		BufferedWriter bw = new BufferedWriter(new FileWriter("lorem2.txt"));
