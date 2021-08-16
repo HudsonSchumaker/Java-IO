@@ -17,7 +17,7 @@ public class TesteEscrita {
 		BufferedWriter bw = new BufferedWriter(osw);
 		
 		bw.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
-//		bw.newLine();
+		// bw.newLine();
 		bw.newLine();
 		bw.write("asfasdfsafdas dfs sdf asf assdß");
 				
