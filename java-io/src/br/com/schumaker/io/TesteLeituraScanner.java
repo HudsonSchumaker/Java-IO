@@ -28,8 +28,8 @@ public class TesteLeituraScanner {
 			
 			linhaScanner.close();
 			
-//			String[] valores = linha.split(",");
-//			System.out.println(valores[3]);
+			// String[] valores = linha.split(",");
+// System.out.println(valores[3]);
 		}
 		scanner.close();
 	}
