@@ -144,7 +144,7 @@ public class WorkingWithFiles {
         writer.close();
 
         BufferedReader reader = new BufferedReader(new FileReader(tmpFile));
-        //assertEquals(toWrite, reader.readLine());
+        // assertEquals(toWrite, reader.readLine());
         reader.close();
     }
 
@@ -169,7 +169,7 @@ public class WorkingWithFiles {
     public List<String> read(String filePath) {
      
         List<String> lines = new ArrayList<>();
-        
+   
         try (BufferedReader br = Files.newBufferedReader(Paths.get(filePath))) {
             lines = br.lines().collect(Collectors.toList());
 
