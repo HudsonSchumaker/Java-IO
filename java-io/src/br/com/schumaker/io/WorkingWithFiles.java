@@ -130,7 +130,7 @@ public class WorkingWithFiles {
         Files.write(path, strToBytes);
 
         String read = Files.readAllLines(path).get(0);
-        //assertEquals(str, read);
+        // assertEquals(str, read);
         if (str.equals(read)) {
             System.out.println("ok");
         }
