@@ -23,7 +23,7 @@ import java.nio.file.Paths;
 
 /**
  *
- * @author Hudson schumaker
+ * @author Hudson Schumaker
  */
 public class WorkingWithFiles {
 
