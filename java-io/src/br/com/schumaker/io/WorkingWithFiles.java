@@ -169,7 +169,6 @@ public class WorkingWithFiles {
     public List<String> read(String filePath) {
      
         List<String> lines = new ArrayList<>();
-   
         try (BufferedReader br = Files.newBufferedReader(Paths.get(filePath))) {
             lines = br.lines().collect(Collectors.toList());
 
