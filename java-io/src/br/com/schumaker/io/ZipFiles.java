@@ -8,6 +8,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 /**
+ * Requires java 11
  *
  * @author Hudson Schumaker
  */
@@ -38,7 +39,7 @@ public final class ZipFiles {
         zis.closeEntry();
         zis.close();
     }
-    
+   
     public File newFile(File destinationDir, ZipEntry zipEntry) throws IOException {
         var destFile = new File(destinationDir, zipEntry.getName());
         var destDirPath = destinationDir.getCanonicalPath();
