@@ -22,6 +22,5 @@ public class TesteEscrita {
 		bw.write("asfasdfsafdas dfs sdf asf assdß");
 				
 		bw.close();
-		
 	}
 }
